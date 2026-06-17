@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+        content="みらい歯科クリニックは東京都品川区の歯科医院です。やさしい治療を、ていねいに。患者さま一人ひとりに寄り添った診療を行っています。">
+
+    <!-- ogp -->
+     <meta property="og:url" content=" ページのURL ※絶対パスで記述">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="みらい歯科クリニック">
+   <meta property="og:description" content="やさしい治療を、ていねいに。東京都品川区の歯科医院です。">
+    <meta property="og:site_name" content="みらい歯科クリニック">
+    <meta property="og:image" content="https://xxxxx.com/assets/images/ogp.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="robots" content="noindex">
+
+    <!-- favicon apple-touch-icon -->
+    <link rel="shortcut icon" href="assets/img/loading-donut.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/180.svg">
+    <link rel="icon" type="image/png" href="assets/images/256.svg">
+
+    <title>みらい歯科クリニック｜東京都品川区の歯科医院</title>
+
+
+    <!--css  -->
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- <div id="loading">
+        <div class="loading-copy">
+            やさしい治療を、ていねいに。
+        </div>
+    </div> -->
+
+    <div id="loading">
+
+
+        <div class="loading-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="loading-copy">
+            やさしい治療を、<br class="sp-br">ていねいに。
+        </div>
+    </div>
+
+    <header class="header">
+
+        <a href="#">
+            <h1><img class="header-logo" src="assets/images/logo.svg" alt=みらい歯科クリニックロゴ></h1>
+            <img class="header-logo__sp" src="assets/images/sp_logo.svg" alt=sp用みらい歯科クリニックロゴ>
+        </a>
+
+        <ul class="nav__list">
+            <li class="nav__item"><a href="about.html">当院について</a></li>
+
+            <li class="nav__item"><a href="service.html">診察内容</a></li>
+
+            <li class="nav__item"><a href="doctor.html">医師紹介</a></li>
+
+            <li class="nav__item"><a href="access.html">アクセス</a></li>
+
+            <li class="nav__item"><a href="news.html">お知らせ</a></li>
+
+            <li>
+                <div class="nav__item__tel">
+                    <span class="nav__item__small">ご予約・お問い合わせ</span>
+                    <span class="nav__item__number">06-1234-5678</span>
+                </div>
+
+            </li>
+        </ul>
+
+
+    </header>
+
+
+    <div class="openbtn"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+        <div id="g-nav-list">
+            <ul>
+                <li class="nav__item"><a href="about.html">当院について</a></li>
+
+                <li class="nav__item"><a href="service.html">診察内容</a></li>
+
+                <li class="nav__item"><a href="doctor.html">医師紹介</a></li>
+
+                <li class="nav__item"><a href="access.html">アクセス</a></li>
+
+                <li class="nav__item"><a href="news.html">お知らせ</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="circle-bg"></div>
+
+
+    <main>
+
+
+        <div class="first-view">
+
+
+
+
+            <div class="first-view-copy">
+                やさしい治療を、<br class="sp-br">ていねいに。
+            </div>
+
+
+            <ul class="first-view-slider">
+
+                <li>
+                    <picture>
+                        <img src="assets/images/examination-room.png" alt="みらい歯科クリニックの診察室">
+                    </picture>
+                </li>
+
+                <li>
+                    <picture>
+                        <img src="assets/images/reception.png" alt="みらい歯科クリニックの受付">
+                    </picture>
+                </li>
+
+                <li>
+                    <picture>
+                        <img src="assets/images/waiting_room.png" alt="みらい歯科クリニックの待合室">
+                    </picture>
+                </li>
+            </ul>
+
+            <div class="first-view__btn">
+                <a class="first-view__tel-btn" href="tel:0612345678">
+                    <img src="assets/images/reserve-tel.svg" alt="電話アイコン">
+                    <div class="first-view__tel-textbox">
+                    <span class="first-view__tel-text">ご予約・お問い合わせ</span>
+                    <span class="first-view__tel-number">06-1234-5678</span>               
+                </div>
+                </a>
+
+                <a class="first-view__reserve-btn" href="#">
+                    <img src="assets/images/reserve-web.svg" alt="予約アイコン">
+                    <span class="first-view__reserve-text">WEB予約</span>
+                </a>
+            </div>
+
+
+        </div>
+
+
+        <section class="about">
+
+            <div class="about__textbox">
+                <h2 class="about__catch fade-up">安心して通える場所を<br class="about-sp__br">目指して</h2>
+
+                <p class="about__text fade-up">歯医者さんに対して、<br class="about-sp__br">「少し緊張する」「なんとなく苦手」<br
+                        class="about-sp__br">そんな気持ちを持つ方も少なくありません。<br>
+                    だからこそ私たちは、<br class="about-sp__br">安心して相談できること、<br class="about-sp__br">落ち着いて過ごせることを大切にしています。<br>
+                    清潔な環境づくりはもちろん、丁寧なご説明や、<br class="about-sp__br">やさしく落ち着ける空間づくりにも配慮しています。</p>
+
+                <a class="about__btn" href="about.html">当院について</a>
+            </div>
+            <div class="about__img">
+                <img src="assets/images/top-about-img.png" alt="西村院長と女性スタッフが会話をしている写真">
+            </div>
+        </section>
+
+        <ul class="slider1">
+            <li><img src="assets/images/slider1-1.png" alt=""></li>
+            <li><img src="assets/images/slider1-2.png" alt=""></li>
+            <li><img src="assets/images/slider1-3.png" alt=""></li>
+            <li><img src="assets/images/slider1-4.png" alt=""></li>
+            <li><img src="assets/images/slider1-5.png" alt=""></li>
+        </ul>
+
+
+        <ul class="slider2">
+            <li><img src="assets/images/slider2-1.png" alt=""></li>
+            <li><img src="assets/images/slider2-2.png" alt=""></li>
+            <li><img src="assets/images/slider2-3.png" alt=""></li>
+            <li><img src="assets/images/slider2-4.png" alt=""></li>
+            <li><img src="assets/images/slider2-5.png" alt=""></li>
+        </ul>
+
+
+        <section class="service">
+            <div class="service__container">
+                <h2 class="section__title fade-up">診療のご案内</h2>
+                <div class="service__list">
+
+                    <article class="service__card fade-up">
+                        <h3 class="service__item">一般治療</h3>
+
+                        <img class="service__image" src="assets/images/service-general-treatment-image.svg" alt="">
+
+                        <p class="service__description">
+                            虫歯や歯周病など、日常的なお口のトラブルを幅広く診療します。
+                        </p>
+
+                        <a class="service__btn" href="service.html#general-treatment">一般治療について</a>
+                    </article>
+
+                    <article class="service__card fade-up">
+                        <h3 class="service__item">口腔外科</h3>
+
+                        <img class="service__image" src="assets/images/service-oral-surgery-image.svg" alt="">
+
+                        <p class="service__description">
+                            親知らずの抜歯など、お口まわりの外科的な処置に対応しています。
+                        </p>
+
+                        <a class="service__btn" href="service.html#oral-surgery">口腔外科について</a>
+                    </article>
+
+                    <article class="service__card fade-up">
+                        <h3 class="service__item">自費治療</h3>
+
+                        <img class="service__image" src="assets/images/service-cosmetic-dentistry-image.svg" alt="">
+
+                        <p class="service__description">
+                            見た目や快適さを高める、自費による幅広い治療をご提供します。
+                        </p>
+
+                        <a class="service__btn" href="service.html#cosmetic-treatment">自費治療について</a>
+                    </article>
+
+                </div>
+            </div>
+
+           
+        </section>
+
+        <section class="news">
+
+            <h2 class="section__title fade-up">お知らせ</h2>
+
+            <div class="news__list">
+
+                <!-- お知らせ1 -->
+                <details class="news-item js-details">
+
+                    <summary class="news-item__summary js-summary">
+
+                        <span class="news-item__meta">
+                            <time class="news__date" datetime="2026-04-10">
+                                2026.04.10
+                            </time>
+                    
+                            <span class="news-item__category">
+                                診療日について
+                            </span>
+                        </span>
+                    
+                        <span class="news-item__title">
+                            ゴールデンウィーク期間の診療について
+                        </span>
+                    
+                    </summary>
+
+
+                    <div class="news-item__body">
+                        <div class="news-item__content">
+                            <p>
+                                ゴールデンウィーク期間中は、暦通りの診療となります。<br>なお、5月3日（日）〜5月6日（水）は休診とさせていただきます。<br>
+                                連休前後はご予約が混み合うことが予想されますので、お早めのご予約をおすすめいたします。
+                            </p>
+                        </div>
+                    </div>
+
+                </details>
+
+
+                <!-- お知らせ2 -->
+                <details class="news-item js-details">
+
+                    <summary class="news-item__summary js-summary">
+
+                        <span class="news-item__meta">
+                            <time class="news__date" datetime="2026-03-25">2026.03.25</time>
+
+                            <span class="news-item__category">
+                                院長より
+                            </span>
+                        </span>
+
+                        <span class="news-item__title">
+                            定期検診のご案内
+                        </span>
+
+                    </summary>
+
+                    <div class="news-item__body">
+                        <div class="news-item__content">
+                            <p>
+                                お口の健康を保つためには、定期的な検診とクリーニングが大切です。<br>当院では3〜6ヶ月ごとの定期検診をおすすめしております。<br>
+                                むし歯や歯周病の早期発見・予防のためにも、ぜひお気軽にご相談ください。
+                            </p>
+                        </div>
+                    </div>
+
+                </details>
+
+
+                <!-- お知らせ3 -->
+                <details class="news-item js-details">
+
+                    <summary class="news-item__summary js-summary">
+
+                        <span class="news-item__meta">
+                            <time class="news__date" datetime="2026-02-18">2026.02.18</time>
+
+                            <span class="news-item__category">
+                                おしらせ
+                            </span>
+                        </span>
+
+                        <span class="news-item__title">
+                            院内設備を一部リニューアルしました
+                        </span>
+
+                    </summary>
+
+                    <div class="news-item__body">
+                        <div class="news-item__content">
+                            <p>
+                                より安心して診療を受けていただけるよう、院内設備の一部をリニューアルいたしました。<br>清潔で落ち着いた空間づくりを心がけ、リラックスしてお過ごしいただける環境を整えております。<br>
+                                今後も快適な診療環境づくりに努めてまいります。
+                            </p>
+                        </div>
+                    </div>
+
+                </details>
+
+                <a class="news__btn" href="news.html">もっと見る</a>
+
+            </div>
+
+        </section>
+
+       
+
+
+
+
+
+
+    </main>
+
+    <section class="bottom-info">
+
+        <div class="bottom-info__container">
+            <img class="bottom-info__image" src="assets/images/exterior.png" alt="みらい歯科クリニックの外観">
+
+            <div class="bottom-info__content">
+
+                <img class="bottom-info__logo" src="assets/images/logo.svg" alt="">
+
+                <div class="contact-btns">
+
+                    <a href="tel:0612345678" class="contact-btn contact-btn--tel">
+                        <span class="contact-btn__title">
+                            ご予約・お問い合わせ
+                        </span>
+
+                        <div class="contact-btn__tel-row">
+                            <span class="contact-btn__small">TEL</span>
+                            <span class="contact-btn__number">06-1234-5678</span>
+                        </div>
+                    </a>
+
+
+
+                    <a href="#" class="contact-btn contact-btn--reserve">
+                        WEB予約は<br>こちら
+                    </a>
+                </div>
+
+                <div class="bottom-info__table-wrap">
+                    <table class="bottom-info__table">
+                        <tr>
+                            <th>診療時間</th>
+                            <th>月</th>
+                            <th>火</th>
+                            <th>水</th>
+                            <th>木</th>
+                            <th>金</th>
+                            <th>土</th>
+                            <th>日・祝</th>
+                        </tr>
+                        <tr>
+                            <td>9:30ｰ13:00</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">ー</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">ー</td>
+                        </tr>
+                        <tr>
+                            <td>14:30ｰ18:30</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">ー</td>
+                            <td class="table__green">●</td>
+                            <td class="table__green">▲</td>
+                            <td class="table__green">ー</td>
+                        </tr>
+                    </table>
+                    <p class="bottom-info__table-info">※土曜日の午後は18：00まで</p>
+
+                    <div class="bottom-info__address">
+                        <img src="assets/images/map-icon.svg" alt="地図のアイコン">
+                        <address class="bottom-info__address-text">140ｰ0040　東京都品川区南1-5-3</address>
+
+                        <a class="bottom-info__btn" href="https://maps.app.goo.gl/BRXc2WWZcvC9TYWF6" target="_blank"
+                            rel="noopener noreferrer">Google MAP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer__container">
+
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item"><a href="about.html">当院について</a></li>
+
+                <li class="footer-nav__item"><a href="service.html">診察内容</a></li>
+
+                <li class="footer-nav__item"><a href="doctor.html">医師紹介</a></li>
+
+                <li class="footer-nav__item">
+                    <a href="access.html">アクセス</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="news.html">
+                        お知らせ</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p class="copy">&copy; MIRAI DENTAL CLINIC</p>
+            <p class="annotation">※本サイトはポートフォリオ用に制作した架空のサイトです</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+
+<!-- ローディングアニメ -->
+<!-- フェードイン -->
+<!-- メタ系 -->
+
+<!-- コードチェック
+画像作成
+Summaryの中のspan -->
