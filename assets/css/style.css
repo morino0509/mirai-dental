@@ -937,6 +937,8 @@ about-page*/
 
 .about-safe__title {
     font-size: 2rem;
+    font-weight: 500;
+
 }
 
 .about-safe__text {
@@ -2181,4 +2183,41 @@ service-page*/
 .fade-up.active {
     opacity: 1;
     transform: translateY(0);
+}
+
+
+.fade-right {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all .8s;
+}
+
+.fade-right.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.fade-left {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all .8s;
+}
+
+.fade-left.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
 }
